@@ -17,6 +17,7 @@ import com.rebaza.api.ejercicios.EjerciciosBinaryOperator;
 import com.rebaza.api.ejercicios.EjerciciosCollect;
 import com.rebaza.api.ejercicios.EjerciciosConsumer;
 import com.rebaza.api.ejercicios.EjerciciosCount;
+import com.rebaza.api.ejercicios.EjerciciosDistinct;
 import com.rebaza.api.ejercicios.EjerciciosFindFirstAny;
 import com.rebaza.api.ejercicios.EjerciciosFlatMap;
 import com.rebaza.api.ejercicios.EjerciciosFunction;
@@ -64,6 +65,9 @@ public class EjerciciosApiApplication {
 		
 		EjerciciosFlatMap.ejercicio1();
 		EjerciciosFlatMap.ejercicio2();
+
+		EjerciciosDistinct.ejercicio1();
+		EjerciciosDistinct.ejercicio2();
 				
 		EjerciciosSorted.ejercicio1();
 		EjerciciosSorted.ejercicio2();
