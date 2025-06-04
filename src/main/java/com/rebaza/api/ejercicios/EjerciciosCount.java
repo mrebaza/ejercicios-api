@@ -2,7 +2,6 @@ package com.rebaza.api.ejercicios;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import com.rebaza.api.models.Producto;
 import com.rebaza.api.utils.EjercicioDatos;

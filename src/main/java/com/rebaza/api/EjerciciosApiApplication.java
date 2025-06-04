@@ -1,12 +1,5 @@
 package com.rebaza.api;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.stream.Collectors;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -27,7 +20,6 @@ import com.rebaza.api.ejercicios.EjerciciosPredicate;
 import com.rebaza.api.ejercicios.EjerciciosSorted;
 import com.rebaza.api.ejercicios.EjerciciosSupplier;
 import com.rebaza.api.ejercicios.EjerciciosUnaryOperator;
-import com.rebaza.api.models.Persona;
 
 @SpringBootApplication
 public class EjerciciosApiApplication {
@@ -99,7 +91,7 @@ public class EjerciciosApiApplication {
 		
 		// ************************************************************************ //
 		
-		
+		/**
 		// Converti una lista de nombres en mayusculas		
 		List<String> nombres = List.of("miguel", "ana", "juan", "aron", "raul", "angel","Miguel", "Juan");
 		
@@ -265,6 +257,8 @@ public class EjerciciosApiApplication {
 				.collect(Collectors.partitioningBy(p -> p.getNombres().length() > 4));
 		
 		// System.out.println(largos);
+
+		 **/
 	}
 	
 
